@@ -24,8 +24,6 @@
 
 # **2. Solução Lógica** 
 
-Os tópicos estão organizados de acordo com a ordem de desenvolvimento por parte da equipe em alcançar uma solução lógica.
-
 ## **2.1 Propósito** 
 
  Esta vista lógica do problema tem por objetivo desenvolver conceitos e fundamentos de arquitetura de software e elaborar uma aplicação funcional de flashcards, aplicável para estudos com base no Sistema Leitner de aprendizagem, visando satisfazer o máximo de requisitos propostos e sem restrições com relação aos conteúdo e temas abordados pelos flashcards, cabendo este dever ao usuário da aplicação (implementação parcial do Sistema Leitner).
