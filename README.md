@@ -1,33 +1,3 @@
----
-title: "Projeto Flashcards"
-subtitle: "Arquitetura de Software"
-author: "Grupo 6\n\n Axel S. Granados\n\n Caio D. Sclavi\n\n Gabriel C. Costa\n\n Gustavo B. Esposar\n\n Vítor F. Marinelli"
-date: "PUC-SP - Departamento de Ciência da Computação"
-documentclass: report
-geometry: "a4paper,margin=2cm"
-fontsize: "12pt"
-header-includes:
-  - \usepackage{setspace}
-  - \setstretch{1.5}
-  - \usepackage[brazil]{babel}
-  - \usepackage{authblk}
-  - \usepackage{hyperref}
-  - \usepackage{bookmark}
-  - \usepackage{float}
-  - \usepackage{placeins}
-  - \floatplacement{figure}{H}
-  - \usepackage{titlesec}
-  - \titlespacing*{\subsection}{0pt}{2.5ex plus 1ex minus .2ex}{1.5ex plus .2ex}
-  - \titlespacing*{\section}{0pt}{2.5ex plus 1ex minus .2ex}{1.5ex plus .2ex}
-  - \titlespacing*{\subsubsection}{0pt}{1.5ex plus .5ex minus .2ex}{1.0ex plus .2ex minus .2ex}
----
-
-\tableofcontents
-<!-- sed 's/auto/\n/g' toc.md > newtoc.md -->
-
-\vfill
-\newpage
-
 # **1. Introdução** 
 
 ## **1.1 Contexto** 
@@ -60,8 +30,6 @@ Os tópicos estão organizados de acordo com a ordem de desenvolvimento por part
 
  Esta vista lógica do problema tem por objetivo desenvolver conceitos e fundamentos de arquitetura de software e elaborar uma aplicação funcional de flashcards, aplicável para estudos com base no Sistema Leitner de aprendizagem, visando satisfazer o máximo de requisitos propostos e sem restrições com relação aos conteúdo e temas abordados pelos flashcards, cabendo este dever ao usuário da aplicação (implementação parcial do Sistema Leitner).
 
-\FloatBarrier
-
 ## **2.2 ICA** 
 
  As figuras 1 e 2 referênciam a visualização do modelo criado [*(link para a correspondente plataforma de desenvolvimento)*](https://lucid.app/lucidchart/1f8ecf87-4cc4-4d9e-9e69-07acf79f4c33/edit?viewport_loc=-5297%2C-952%2C9787%2C4537%2C0_0&invitationId=inv_31681b96-f09f-4455-801e-0881cdba1649).
@@ -70,13 +38,9 @@ Os tópicos estão organizados de acordo com a ordem de desenvolvimento por part
 
 ![ICA flashcards](./figuras/ica_flashcards.png)
 
-\FloatBarrier
-
 ## **2.3 UML - Diagrama de Estados** 
 
  As figuras 3, 4, 5 e 6 referênciam o diagrama de transição de estados desenvolvido [*(link para a correspondente plataforma de desenvovimento)*](https://pucsp-my.sharepoint.com/:u:/r/personal/ra00297810_pucsp_edu_br/Documents/diagramaUML.vsdx?d=wa516c5e6f8ae4dd68424e44d7f148946&csf=1&web=1&e=rZepdv).
-
-\FloatBarrier
 
 ![Sumário das Referências](./figuras/sumario.png)
 
@@ -85,8 +49,6 @@ Os tópicos estão organizados de acordo com a ordem de desenvolvimento por part
 ![Diagrama gerenciar](./figuras/DiagramaUML_gerenciar.png)
 
 ![Diagrama praticar](./figuras/DiagramaUML_praticar.png)
-
-\FloatBarrier
 
 ## **2.4 Análise de Domínio** 
 
@@ -109,8 +71,6 @@ Os tópicos estão organizados de acordo com a ordem de desenvolvimento por part
 - **Justificativas:**
  1. (10) - **Implementação parcial**, o sistema Leitner deve estar associado com um controle na rotina de estudos e de temas do baralho, o controle da rotina de estudos foi imlementado porém a funcionalidade de gerenciamento do baralho por temas não, cabendo ao usuário segregar por temas.
  2. (7) - **Não implementado**,  a equipe optou apenas pelo desenvolvimento de uma aplicação Desktop. Assumir o compromisso de desenvolvimento mobile implica na elaboração e documentação de outra vista lógica, ferramentas e seus próprios desafios, causando uma preocupação coletiva em elaborar, dentro do prazo de desenvolvimento, um modelo lógico consistente, bem estruturado e documentado, abordando o domínio de requisitos da aplicação. Fatores como a inexperiência do grupo no âmbito da arquitetura de software e pouco contato com plataformas e linguagens de desenvolvimento mobile intensificam o problema, o que pode acarretar num desenvolvimento pouco proveitoso e de baixo aprendizado na disciplina de Arquitetura de Software. 
-
-\null
 
 ## **2.5 Cenários de Uso** 
 
@@ -362,28 +322,10 @@ Como consequência, obtivemos 3 módulos funcionais e segregados nomeados Model,
 
 A figura 7 referencía o diagrama de classes simplificado. As figuras 8, 9 e 10 por sua vez representam cada um dos módulos elaborados na arquitetura mais detalhadamente.
 
-\FloatBarrier
-
 ![Diagrama simplificado](./figuras/classes_total.png)
-
-\FloatBarrier
 
 ![Diagrama do módulo `<<Model>>`](./figuras/classes_model.png)
 
-\FloatBarrier
-
 ![Diagrama do módulo `<<View>>`](./figuras/classes_view.png)
 
-\FloatBarrier
-
 ![Diagrama do módulo `<<Controller>>`](./figuras/classes_controller.png)
-
-\FloatBarrier
-
-# **3. Considerações Finais**
-
-O início da codificação do projeto ocorreu após a elaboração dos Diagramas de classes, em que pudemos perceber relações, propriedades e responsabilidades específicas que cada classe deveria conter. Mesmo com diversas correções efetuadas nas relações entre cada entidade e classe, foi percebida uma grande diferença na velocidade e consistência da codificação em comparação com outros projetos já desenvolvidos sem tais praticas básicas de design e arquitetura de software.
-
-Os grandes problemas de implementação ocorriam ao perceber um furo ou inconsistência de nosso modelo lógico, devido à falta de sensibilidade para identificar determinadas características e necessidades da lógica total da aplicação. Portanto, os problemas que encontramos ocorriam pela falta de identificação dos requisitos lógicos e documentação dos mesmos.
-
-Efetuamos algumas alterações de acordo com os comentários em aula no dia da apresentação final do projeto.
