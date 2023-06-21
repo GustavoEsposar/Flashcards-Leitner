@@ -42,11 +42,11 @@
 
 ![Sumário das Referências](./readme_figures/sumario.png)
 
-![Diagrama principal](./readme_figures/DiagramaUML_principal.png)
+![Diagrama principal](./readme_figures/diagramaUML_principal.png)
 
-![Diagrama gerenciar](./readme_figures/DiagramaUML_gerenciar.png)
+![Diagrama gerenciar](./readme_figures/diagramaUML_gerenciar.png)
 
-![Diagrama praticar](./readme_figures/DiagramaUML_praticar.png)
+![Diagrama praticar](./readme_figures/diagramaUML_praticar.png)
 
 ## **2.4 Análise de Domínio** 
 
