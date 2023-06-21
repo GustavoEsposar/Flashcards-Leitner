@@ -32,21 +32,21 @@
 
  As figuras 1 e 2 referênciam a visualização do modelo criado [*(link para a correspondente plataforma de desenvolvimento)*](https://lucid.app/lucidchart/1f8ecf87-4cc4-4d9e-9e69-07acf79f4c33/edit?viewport_loc=-5297%2C-952%2C9787%2C4537%2C0_0&invitationId=inv_31681b96-f09f-4455-801e-0881cdba1649).
 
-![ICA gerenciador](./figuras/ica_gerenciador.png) 
+![ICA gerenciador](./readme_figures/ica_gerenciador.png) 
 
-![ICA flashcards](./figuras/ica_flashcards.png)
+![ICA flashcards](./readme_figures/ica_flashcards.png)
 
 ## **2.3 UML - Diagrama de Estados** 
 
  As figuras 3, 4, 5 e 6 referênciam o diagrama de transição de estados desenvolvido [*(link para a correspondente plataforma de desenvovimento)*](https://pucsp-my.sharepoint.com/:u:/r/personal/ra00297810_pucsp_edu_br/Documents/diagramaUML.vsdx?d=wa516c5e6f8ae4dd68424e44d7f148946&csf=1&web=1&e=rZepdv).
 
-![Sumário das Referências](./figuras/sumario.png)
+![Sumário das Referências](./readme_figures/sumario.png)
 
-![Diagrama principal](./figuras/DiagramaUML_principal.png)
+![Diagrama principal](./readme_figures/DiagramaUML_principal.png)
 
-![Diagrama gerenciar](./figuras/DiagramaUML_gerenciar.png)
+![Diagrama gerenciar](./readme_figures/DiagramaUML_gerenciar.png)
 
-![Diagrama praticar](./figuras/DiagramaUML_praticar.png)
+![Diagrama praticar](./readme_figures/DiagramaUML_praticar.png)
 
 ## **2.4 Análise de Domínio** 
 
@@ -320,10 +320,10 @@ Como consequência, obtivemos 3 módulos funcionais e segregados nomeados Model,
 
 A figura 7 referencía o diagrama de classes simplificado. As figuras 8, 9 e 10 por sua vez representam cada um dos módulos elaborados na arquitetura mais detalhadamente.
 
-![Diagrama simplificado](./figuras/classes_total.png)
+![Diagrama simplificado](./readme_figures/classes_total.png)
 
-![Diagrama do módulo `<<Model>>`](./figuras/classes_model.png)
+![Diagrama do módulo `<<Model>>`](./readme_figures/classes_model.png)
 
-![Diagrama do módulo `<<View>>`](./figuras/classes_view.png)
+![Diagrama do módulo `<<View>>`](./readme_figures/classes_view.png)
 
-![Diagrama do módulo `<<Controller>>`](./figuras/classes_controller.png)
+![Diagrama do módulo `<<Controller>>`](./readme_figures/classes_controller.png)
